@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="#1e3a5f"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QR Code TV Receiver"
+        android:textSize="12sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginBottom="2dp" />
+
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="تولید QR کد"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <ImageView
+        android:id="@+id/qrImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="2dp"
+        android:background="#ffffff"
+        android:padding="1dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="برای شروع دکمه تولید QR کد را فشار دهید"
+        android:textSize="20sp"
+        android:textColor="#cccccc"
+        android:gravity="center"
+        android:layout_marginBottom="2dp" />
+    <Button
+        android:id="@+id/copyButton"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="کپی کردن متن"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/copy_button_background"
+        android:visibility="gone"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/text_background"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp">
+
+
+        <TextView
+            android:id="@+id/receivedTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="هنوز پیامی دریافت نشده است"
+            android:textSize="12sp"
+            android:textColor="#555555"
+            android:background="#f5f5f5"
+            android:padding="2dp"
+            android:gravity="start|top" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
