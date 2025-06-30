@@ -9,3 +9,12 @@
 امکان کپی کردن متن ،
 سازگار با ریموت کنترل تلویزیون ،
 پشتیبانی از Android TV 10
+
+
+روش 1: از طریق USB
+
+فایل APK را روی فلش USB کپی کنید
+USB را به تلویزیون وصل کنید
+به Settings > Device Preferences > Security & Restrictions بروید
+گزینه "Unknown sources" را فعال کنید
+از File Manager فایل APK را اجرا کنید
